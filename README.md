@@ -58,7 +58,7 @@ console.log("result: ", JSON.stringify(result, null, 2));
 
 This package is used to implement TD Sequential indicator in Bitcoin CrazYness app:
 
-[BitcoinCrazYness.com](bitcoincrazyness.com)
+[BitcoinCrazYness.com](http://bitcoincrazyness.com)
 
 Below is an example screenshot.
 <center>
