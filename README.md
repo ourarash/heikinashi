@@ -1,5 +1,5 @@
 # Heikinashi
->Converting OHLC Candlstick data to Heikin-Ashi 
+Converts OHLC Candlstick data to Heikin-Ashi 
 
 The conversion is done based on this:
 
@@ -46,7 +46,10 @@ let result = HeikinAshi([
     volume: 73842.44,
   },
   ...
-]);
+], 
+options{
+  overWrite: false  //overwrite the original data or create a new array
+});
 
 console.log("result: ", JSON.stringify(result, null, 2));
 ```
