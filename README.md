@@ -61,7 +61,7 @@ This package is used to implement TD Sequential indicator in Bitcoin CrazYness a
 
 Below is an example screenshot.
 
-![Standard Candlesticks in BitcoinCrazYness App](https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/standard.jpg | width=100) *Example of Heikin Ashi in BitcoinCrazYness app*|![Heikin Ashi Candlesticks in BitcoinCrazYness App](https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/heikinashi.jpg | width=100) *Example of Heikin Ashi in BitcoinCrazYness app*
+![Standard Candlesticks in BitcoinCrazYness App](https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/standard.jpg ) <!-- .element height="50%" width="50%" --> *Example of Heikin Ashi in BitcoinCrazYness app* | ![Heikin Ashi Candlesticks in BitcoinCrazYness App](https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/heikinashi.jpg ) <!-- .element height="50%" width="50%" --> *Example of Heikin Ashi in BitcoinCrazYness app*
  
 
 ## License
