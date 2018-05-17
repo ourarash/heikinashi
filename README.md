@@ -61,13 +61,13 @@ This package is used to implement TD Sequential indicator in Bitcoin CrazYness a
 [BitcoinCrazYness.com](bitcoincrazyness.com)
 
 Below is an example screenshot.
-<div style="text-align:center">
+<center>
 
 | Standard| Heikin Ashi |
 | ------------- |-------------|
-| <img src="https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/standard.jpg" width="200"> | <img src="https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/heikinashi.jpg" width="200"> |
+| <img src="https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/standard.jpg" width="250"> | <img src="https://raw.githubusercontent.com/ourarash/heikinashi/master/screenshots/heikinashi.jpg" width="250"> |
 
-</div>
+</center>
 
 ## License
 
