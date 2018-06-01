@@ -48,7 +48,10 @@ let result = HeikinAshi([
   ...
 ],
 options{
-  overWrite: false  //overwrite the original data or create a new array
+  overWrite: false,  //overwrites the original data or create a new array
+  formatNumbers: false, //formats the numbers and reduces their significant digits based on the values
+  decimals: 4,  //number of significant digits
+  forceExactDecimals: false //force the number of significant digits or reduce them if the number is high
 });
 
 console.log("result: ", JSON.stringify(result, null, 2));
