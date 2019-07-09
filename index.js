@@ -11,10 +11,15 @@ module.exports = function(ohlc, options = { overWrite: false }) {
   return HeikinAshi(ohlc, options);
 };
 
-// HA-Close = (Open(0) + High(0) + Low(0) + Close(0)) / 4
-// HA-Open = (HA-Open(-1) + HA-Close(-1)) / 2
-// HA-High = MAX (High(0), HA-Open(0) or HA-Close(0))
-// HA-Low = Min (Low(0), HA-Open(0) or HA-Close(0) )
+/**
+ * Converts OHLC data to Heikin-Ashi based on the following:
+ * HA-Close = (Open(0) + High(0) + Low(0) + Close(0)) / 4
+ * HA-Open = (HA-Open(-1) + HA-Close(-1)) / 2
+ * HA-High = MAX (High(0), HA-Open(0) or HA-Close(0))
+ * HA-Low = Min (Low(0), HA-Open(0) or HA-Close(0) )
+ * @param {Array} ohlc Array of ohlc values
+ * @param {object} options 
+ */
 function HeikinAshi(
   ohlc,
   options = {
@@ -49,7 +54,6 @@ function HeikinAshi(
     }
 
     if (i > 0) {
-      const element_1 = ohlc[i - 1];
       const result_1 = result[i - 1];
       haCandle.open = (result_1.open + result_1.close) / 2;
       if(formatNumbers){
@@ -62,9 +66,14 @@ function HeikinAshi(
   }
   return result;
 }
-
-// Sets the number of significant digits based on the number's value and its parameters.
-// If forceExactDecimals is false, the bigger the value, the lower the number of significant digits
+//-----------------------------------------------------------------------------
+/**
+ * Sets the number of significant digits based on the number's value and its parameters.
+ * If forceExactDecimals is false, the bigger the value, the lower the number of significant digits
+ * @param {Number} value 
+ * @param {Number} decimal=4
+ * @param {boolean} forceExactDecimals=false
+ */
 function formatNumbersFunc(value, decimals = 4, forceExactDecimals = false) {
   let maxDecimals = 8;
   try {

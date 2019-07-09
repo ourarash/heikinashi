@@ -1,6 +1,6 @@
 # Heikinashi
 
-Converts OHLC Candlstick data to Heikin-Ashi
+Converts OHLC Candlestick data to Heikin-Ashi
 
 The conversion is done based on this:
 

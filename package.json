@@ -1,7 +1,7 @@
 {
   "name": "heikinashi",
-  "version": "1.0.2",
-  "description": "Converting OHLC Candlstick data to Heikin-Ashi ",
+  "version": "1.0.3",
+  "description": "Converting OHLC Candlestick data to Heikin-Ashi ",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
@@ -16,7 +16,8 @@
     "ashi",
     "OHLC",
     "candlestick",
-    "trading"
+    "trading",
+    "stock"
   ],
   "author": {
     "name": "Ari Saif",
