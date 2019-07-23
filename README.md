@@ -1,5 +1,14 @@
 # Heikinashi
 
+[![NPM](https://badge.fury.io/js/crypto-price-monitor.svg)](https://www.npmjs.com/package/heikinashi)
+
+[![NPM Downloads][downloadst-image]][downloads-url]
+
+[downloads-image]: https://img.shields.io/npm/dm/heikinashi.svg
+[downloadst-image]: https://img.shields.io/npm/dt/heikinashi.svg
+[downloads-url]: https://npmjs.org/package/heikinashi
+
+
 Converts OHLC Candlestick data to Heikin-Ashi
 
 The conversion is done based on this:
