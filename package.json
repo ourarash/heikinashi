@@ -1,6 +1,6 @@
 {
   "name": "heikinashi",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Converting OHLC Candlestick data to Heikin-Ashi ",
   "main": "index.js",
   "scripts": {

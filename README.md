@@ -1,7 +1,6 @@
 # Heikinashi
 
 [![NPM](https://badge.fury.io/js/crypto-price-monitor.svg)](https://www.npmjs.com/package/heikinashi)
-
 [![NPM Downloads][downloadst-image]][downloads-url]
 
 [downloads-image]: https://img.shields.io/npm/dm/heikinashi.svg
