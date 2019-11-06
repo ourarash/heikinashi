@@ -16,7 +16,7 @@ The conversion is done based on this:
 HA.Close = (Open(0) + High(0) + Low(0) + Close(0)) / 4;
 HA.Open = (HA.Open(-1) + HA.Close(-1)) / 2;
 HA.High = MAX(High(0), HA.Open(0), HA.Close(0));
-HA.Low = Min(Low(0), HA - Open(0), HA.Close(0));
+HA.Low = Min(Low(0), HA.Open(0), HA.Close(0));
 
 // Where (0) means current candle, and (-1) means the previous candle
 ```
